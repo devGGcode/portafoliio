@@ -1,0 +1,27 @@
+.about__container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 4rem 1rem;
+    padding-top: 1rem;
+}
+
+h3.about__title{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    margin: 1rem;
+    align-self: center;
+    text-transform:uppercase;
+}
+
+.about__paragraph{
+    color: white;
+    font-family: Raleway;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 1rem 0;
+    text-align: center;
+}
