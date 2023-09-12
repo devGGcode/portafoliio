@@ -1,9 +1,10 @@
-section.skills{
+/*Skills*/
+section.skills {
     text-align: center;
-    padding: 4rem 1rem;
+    padding: 3rem 1rem;
 }
 
-h3.skills__title{
+h3.skills__title {
     color: white;
     font-family: 'Oswald', sans-serif;
     font-size: 32px;
@@ -11,47 +12,45 @@ h3.skills__title{
     text-transform: uppercase;
 }
 
-.skills__line{
+.skills__line {
     display: flex;
     justify-content: center;
-    flex-shrink: 10;
-    gap: 60px;
+    flex-wrap: wrap;
+    gap: 40px;
 }
 
-div.skills__box{
+div.skills__box {
     background-color: #021024;
     color: white;
     width: 130px;
     height: 130px;
     padding: 13px;
     display: flex;
-    flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     border-radius: 100%;
     transition: all 600ms ease;
 }
 
-
-.skills__box:hover{
+.skills__box:hover {
     color: #23aac5;
     transform: scale(1.1);
     font-size: 20px;
     box-shadow: inset 24px 200px #fff;
 }
 
-div.skills__box > ul{
+div.skills__box>ul {
     padding: 0;
 }
 
-.img2{
+.img2 {
     display: none;
 }
 
-.skills__box:hover .img2{
+.skills__box:hover .img2 {
     display: inline;
 }
 
-.skills__box:hover .img1{
+.skills__box:hover .img1 {
     display: none;
 }

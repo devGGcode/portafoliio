@@ -1,6 +1,7 @@
+/*Proyectos*/
 section.experience{
     font-family: 'Oswald', sans-serif;
-    padding: 3rem 1rem;
+    padding: 1rem;
 }
 
 .experience__section__title{
@@ -12,7 +13,7 @@ section.experience{
 
 .experience__box{
     display: flex;
-    padding: 0 2rem 0 2rem;
+    padding: 0 2rem;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -43,7 +44,7 @@ section.experience{
 .experience__img{
     height:auto;
     width:auto;
-    width: 750px;
+    width: 650px;
 }
 
 .experiencia__botao--repo{

@@ -1,7 +1,7 @@
 /* Experiencia Académica*/
 section.academic{
     text-align: center;
-    padding: 3rem 1rem;
+    padding: 1rem;
 }
 
 h2.academic__title{
@@ -30,8 +30,7 @@ ul.academic__courses__list{
     border-radius: 20px;
     align-self: center;
     height: auto;
-    padding: 35px;
-    padding-top: 25px;
+    padding: 25px 35px;
 }
 
 li.academic__courses__item__img img{

@@ -4,9 +4,11 @@ div.title__div{
     align-items: center;
     justify-content: center;
     flex-direction: row-reverse;
+    padding: 0 25px;
 }
 
 .title__profile{
+    width: 300px;
     z-index: 1;
     border-radius: 50%;
     background-color: #28485e;
@@ -20,7 +22,7 @@ div.title__div{
 .title__container{
     display: flex;
     flex-direction: column;
-    padding-right: 100px;
+    padding-right: 50px;
 }
 
 span#title__bio__name{
@@ -34,13 +36,13 @@ span#title__bio__name{
 }
 
 .title__bio{
-    font-size: 52px;
-    margin: 0 0 1rem 0;
+    font-size: 45px;
+    margin: 0;
     text-align: center;
 }
 
 .title__subsection{
-    font-size: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     text-align: center;
@@ -60,9 +62,8 @@ li.title__network__item{
     justify-content: center;
     align-items: center;
     font-family: Raleway;
-    font-size: 14px;
     background: #23aac5;
-    width: 65px;
+    width: 55px;
     height: 50px;
     border-radius: 50px;
     margin: 5px;
@@ -72,6 +73,7 @@ li.title__network__item{
     visibility:hidden;
     opacity: 0;
     position: absolute;
+    font-size: 0;
     color:#23aac5;
 }
 
@@ -80,13 +82,10 @@ li.title__network__item:hover .redes_text{
     opacity: 1;
     position: relative;
     font-size: 20px;
-    width: 45px;
-    height: 35px;
     background: #23aac5;
     border-radius: 50px;
     padding: 13px;
     transform: scale(1.1);
-    font-size: 20px;
     box-shadow: inset 1000px 1px 100px #fff;
     transition: all 800ms ease;
     transition: box-shadow 2s ease;
