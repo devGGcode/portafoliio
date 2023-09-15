@@ -1,5 +1,6 @@
 /*Tablet*/
 @media screen and (max-width: 768px) {
+
     /*Sección Menu*/
     ul.menu__list {
         display: flex;
@@ -123,11 +124,17 @@
         margin: 0;
     }
 
-    .menu__list {
+    ul.menu__list {
         font-size: 13.5px;
-        gap: 10px;
+        gap: 9px;
         padding: 0;
         flex-wrap: wrap;
+    }
+
+    .menu__hover:hover{
+        border-radius: 18px;
+        padding: 5px;
+        transition: all ease .5s;
     }
 
     /*Sección header/title*/
@@ -145,15 +152,19 @@
         padding: 0;
     }
 
+    #title__bio__ocupation {
+        font-size: 33px;
+    }
+
     .title__bio {
-        font-size: 40px;
+        font-size: 36px;
         margin-top: 10px;
         padding: 0;
     }
 
     h3.title__subsection {
         font-size: 17px;
-        padding: 0 15px;
+        padding: 10px 15px;
         margin: 0;
     }
 

@@ -89,7 +89,6 @@ li.title__network__item:hover .redes_text{
     box-shadow: inset 1000px 1px 100px #fff;
     transition: all 800ms ease;
     transition: box-shadow 2s ease;
-
 }
 
 li.title__network__item:hover img{
